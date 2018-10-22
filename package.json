@@ -1,0 +1,15 @@
+{
+  "name": "canvas-resize",
+  "version": "1.0.0",
+  "description": "Simple web app practicing HTML canvas animation",
+  "main": "canvas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Reynolds",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.4"
+  }
+}
