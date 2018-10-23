@@ -13,8 +13,8 @@ let c = canvas.getContext("2d");
 btnX.addEventListener("click", clear);
 btnY.addEventListener("click", userCircles);
 
-canvas.width = 0.6 * window.innerWidth;
-canvas.height = 0.6 * window.innerHeight;
+canvas.width = 0.8 * window.innerWidth;
+canvas.height = 0.8 * window.innerHeight;
 
 // array to hold individual circle objects
 let circleArray = [];

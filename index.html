@@ -12,23 +12,40 @@
 
 <body>
 
+    <div class="container">
+        <div class="header">
+            <h1>
+                Let's make some bubbles!
+            </h1>
+            <h3>
+                Tell us how many bubbles you want, up to 100, and pick three colors you'd like to see!
+            </h3>
+        </div>
+        <div class="tasks">
+            <button class="x">
+                Clear
+            </button>
+            <button class="y">
+                Draw Circles
+            </button>
+        </div>
+        <div class="number">
+            <label for="circles">Number of circles</label>
+            <textarea name="circles" id="circles" cols="3" rows="1"></textarea>
+        </div>
 
-    <button class="x">
-        Clear
-    </button>
-    <button class="y">
-        Draw Circles
-    </button>
-    <label for="circles">Number of circles</label>
-    <textarea name="circles" id="circles" cols="3" rows="1"></textarea>
-    <select name="color1" id="color1"></select>
-    <select name="color2" id="color2"></select>
-    <select name="color3" id="color3"></select>
+        <div class="colors">
+            <label for="colors">Select three fill colors</label>
 
-    <canvas>
+            <select name="color1" id="color1"></select>
+            <select name="color2" id="color2"></select>
+            <select name="color3" id="color3"></select>
+        </div>
+        <canvas>
 
-    </canvas>
-    <script src="canvas.js"></script>
+        </canvas>
+        <script src="canvas.js"></script>
+    </div>
 </body>
 
 </html>

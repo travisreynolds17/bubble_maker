@@ -1,3 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-size: 12px;
+}
+
 canvas {
-    border: 1px solid black;
+  border: 1px solid black;
+  background: black;
+  grid-area: canvas;
+  width: 80%;
+}
+
+.container {
+  background: white;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 10px;
+
+  grid-template-areas:
+    "header"
+    "tasks"
+    "number"
+    "colors"
+    "canvas";
+}
+
+.tasks {
+  grid-area: tasks;
+}
+
+.header {
+  grid-area: header;
+  font-size: 2.6em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.number {
+  grid-area: number;
+}
+
+.colors {
+  grid-area: colors;
+}
+
+button {
+  font-size: 2em;
+  padding: 5px;
+}
+
+label {
+  font-size: 1.8em;
 }
